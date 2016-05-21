@@ -1,0 +1,164 @@
+/*##############################################################################
+                            THE PAGE IN GENERAL
+##############################################################################*/
+
+body
+{
+	font-family: Arial, sans-self;
+	color: rgb(18,18,18);
+	font-size: 1em;
+  background-color: rgb(207, 231, 245);
+  margin: 50px;
+}
+
+#block_page
+{
+	width: 700px;
+	margin: auto;
+	margin-top: 80px;
+  display: inline-block;
+}
+
+header h1
+{
+  font-weight: 1.5em;
+	font-size: 2.5em;
+	margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+header h2
+{
+  font-weight: 1.5em;
+	font-size: 1.5em;
+
+}
+
+section h1, section h2, footer h1
+{
+	font-family: sans-self;
+	font-weight: 1.2em;
+}
+
+/*##############################################################################
+                                    HEADER
+##############################################################################*/
+
+header
+{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding: 15px;
+	height: 150px;
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+/*##############################################################################
+                                    BODY
+##############################################################################*/
+
+section
+{
+	display: inline-block;
+}
+
+article
+{
+	display: inline-block;
+  width: 600px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+article h1
+{
+	margin-left: 100px;
+}
+
+/*##############################################################################
+                                    FORMS
+##############################################################################*/
+
+form {
+    margin-bottom: 20px;
+    margin-left: 130px;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div {
+    margin-top: 1em;
+}
+
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+}
+
+form p
+{
+    font-size: .8em;
+    width: 700px;
+    margin-left: 50px;
+
+}
+
+input:focus, textarea:focus {
+    /* Afin de rehausser les éléments actifs */
+    border-color: #000;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+
+}
+
+button {
+    /* Cette marge représente approximativement le même espace
+       que celui entre les étiquettes et les champs textuels */
+    margin-left: 150px;
+    width: 80px;
+}
+
+/*##############################################################################
+                                  RESULTS
+##############################################################################*/
+
+
+/*##############################################################################
+                                    FOOTER
+##############################################################################*/
+
+footer 
+{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+footer h1
+{ 
+    font-style: italic;
+    font-size: 1em; 
+}
+
+footer p
+{ 
+    font-style: italic;
+    font-size: 0.8em; 
+}
+
+#copyrights
+{
+    float: left;
+}
